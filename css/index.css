@@ -133,4 +133,182 @@ table {
 html,
 body {
   height: 100%;
+  background: black;
+}
+.border-no-sides {
+  border: 1px solid black;
+  border-left: 0px;
+  border-right: 0px;
+}
+.flex-row {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 800px;
+  background: white;
+}
+.container .border-div {
+  border: 1px solid white;
+}
+.container header nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  background: black;
+  margin: 0 auto;
+  font-family: 'Charm', cursive;
+  font-size: 20px;
+}
+.container header nav a {
+  padding: 20px;
+  color: pink;
+  text-decoration: none;
+  outline: none;
+  transition: 300ms ease-in-out;
+}
+.container header nav a:hover {
+  transform: scale(1.5, 1.5);
+}
+.container header img {
+  max-width: 100%;
+}
+.container header h1 {
+  font-size: 5rem;
+  position: absolute;
+  z-index: 10;
+  color: white;
+  margin-top: -130px;
+  width: 90%;
+  max-width: 800px;
+  text-align: center;
+  text-shadow: black -2px 3px 1px;
+  font-family: 'Charm', cursive;
+}
+@media (max-width: 500px) {
+  .container header h1 {
+    font-size: 3rem;
+    margin-top: -100px;
+  }
+}
+.container header h2 {
+  font-size: 2rem;
+  position: absolute;
+  z-index: 10;
+  color: white;
+  margin-top: -50px;
+  width: 90%;
+  max-width: 800px;
+  text-align: center;
+  text-shadow: black -2px 1px 1px;
+  font-family: 'Charm', cursive;
+}
+@media (max-width: 500px) {
+  .container header h2 {
+    font-size: 1.5rem;
+  }
+}
+.container header .cta {
+  padding: 20px;
+  background: pink;
+  margin-top: -5px;
+  text-align: center;
+  font-size: 2rem;
+  color: black;
+  font-family: 'Josefin Slab', serif;
+}
+.container header .cta button {
+  color: black;
+  background: white;
+  border-radius: 10px;
+  border: 2px dashed #370372;
+  font-size: 1.2rem;
+  padding: 10px;
+  margin: 5px;
+  font-family: 'Verdana', serif;
+  transition: 300ms ease-in-out;
+}
+.container header .cta button:hover {
+  cursor: pointer;
+  background: #d8b7f7;
+  transform: scale(1.15, 1.15);
+}
+.container .skills-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+  font-family: 'Josefin Slab', serif;
+}
+@media (max-width: 500px) {
+  .container .skills-container {
+    flex-flow: column nowrap;
+  }
+}
+.container .skills-container h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  padding: 5px;
+}
+.container .skills-container .skills-text {
+  text-align: justify;
+  font-size: 1.5rem;
+  max-width: 40%;
+  margin: 5%;
+}
+@media (max-width: 500px) {
+  .container .skills-container .skills-text {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+.container .skills-container .skills-list {
+  max-width: 50%;
+  margin: 5%;
+  font-size: 1.5rem;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  .container .skills-container .skills-list {
+    max-width: 100%;
+  }
+}
+.container .skills-container .skills-list h2 {
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+}
+.container .skills-container .skills-list li {
+  border: 1px solid black;
+  border-left: 0px;
+  border-right: 0px;
+  padding: 20px;
+  border-top: 0px;
+}
+.container .gallery {
+  font-family: 'Charm', serif;
+  text-align: center;
+  height: 400px;
+  overflow: auto;
+}
+@media (max-width: 500px) {
+  .container .gallery {
+    margin-top: 20px;
+  }
+}
+.container .gallery h2 {
+  font-size: 2rem;
+  width: 100%;
+  justify-content: center;
+}
+.container .gallery img {
+  border: 5px solid red;
+  border-radius: 25px;
+}
+.container footer {
+  font-family: 'Verdana', serif;
+  text-align: center;
+  padding: 50px;
 }
