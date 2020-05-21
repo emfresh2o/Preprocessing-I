@@ -227,6 +227,7 @@ button:hover {
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin: 0 auto;
+  padding-left: 20px;
 }
 .Skills .left-column {
   width: 50%;
