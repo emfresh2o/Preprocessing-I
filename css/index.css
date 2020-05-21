@@ -148,8 +148,8 @@ body {
 header {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
   background-color: none;
+  width: 100%;
 }
 li,
 a {
@@ -161,7 +161,7 @@ a {
 .navigation {
   list-style: none;
 }
-.navigation li {
+li {
   display: inline-block;
   padding: 1.5em;
 }
@@ -227,6 +227,7 @@ button:hover {
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin: 0 auto;
+  padding-left: 6%;
 }
 .Skills .left-column {
   width: 55%;
@@ -245,6 +246,7 @@ button:hover {
   border: 1px solid lightgrey;
   padding: 15px;
   margin-right: 35px;
+  width: 80%;
 }
 .work {
   display: block;
