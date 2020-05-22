@@ -136,10 +136,6 @@ html,
 body {
   height: 100%;
 }
-.border-box {
-  border-radius: 10px;
-  box-shadow: 2px 2px 10px black;
-}
 body {
   font-family: Jost;
   width: 1024px;
